@@ -28,7 +28,7 @@ class Card extends Component {
         </div>
         
         <div className="info card">
-          <div className="name">{profile.name}</div>
+          <div className="name"><h4>{profile.name}</h4></div>
           <div className="company">{profile.company}</div>
           <div className="email">Repositories: {profile.public_repos}</div>
           <div className="email">Followers: {profile.followers}</div>
